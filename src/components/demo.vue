@@ -10,17 +10,17 @@
 
 <script>
 export default {
-    data() {
+    data () {
         return {
             loading: false
-        };
+        }
     },
     methods: {},
     filters: {
-        setFilter(value, value1, value2) {
-            return `${value} - ${value1} - ${value2}`;
+        setFilter (value, value1, value2) {
+            return `${value} - ${value1} - ${value2}`
         }
     }
-};
+}
 </script>
 <style scoped lang="less"></style>
